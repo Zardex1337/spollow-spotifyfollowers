@@ -23,3 +23,4 @@ def follow():
           r = requests.put(f"https://api.spotify.com/v1/me/following?type=user&ids={username}", headers=headers)
           print(r.status_code)
 follow()
+#Zardex#1337 on discord
